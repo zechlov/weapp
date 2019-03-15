@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<top-bar navbar-data='{{nvabarData}}'></top-bar>
+  <swiper indicator-dots="{{indicatorDots}}"
+  indicator-color="rgba(255, 255, 255, 0.4)"
+  indicator-active-color="rgba(255, 255, 255, 0.9)"
+  circular="{{circular}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}">
+    <swiper-item>
+      <view class="cookie bc_blue"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="cookie bc_yellow"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="cookie bc_red"></view>
+    </swiper-item>
+  </swiper>
+  <view class="icon-list">
+    <block wx:for="{{iconList}}" wx:key="{{index}}">
+      <view class="icon-box">
+        <view class="icon-item">
+          <image class="icon-tab" wx:src="{{item.url}}"/>
+        </view>
+        <view class="icon-title">{{item.title}}</view>
+      </view>
+    </block>
+  </view>

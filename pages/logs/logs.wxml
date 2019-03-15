@@ -1,0 +1,5 @@
+<!--logs.wxml-->
+<top-bar navbar-data='{{nvabarData}}'></top-bar>
+<view class="container log-list">
+ 
+</view>

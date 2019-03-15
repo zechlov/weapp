@@ -1,0 +1,77 @@
+<!--pages/private/private.wxml-->
+<top-bar navbar-data='{{nvabarData}}'></top-bar>
+<view class="person">
+    <view class="avatar-box">
+      <image class="avatar" />
+    </view>
+    <view class="name">李青</view>
+    <view class="job">区域总经理</view>
+    <view class="company">
+      <image class="company-icon" src="../../img/company-icon.svg"/>
+      <text class="company-name">上海飞科科技有限公司</text>
+    </view>
+    <view class="tips">注于发现与分享的音乐产品,依托专业音乐人</view>
+</view>
+<view class="button-box">
+    <button class="link-btn" style="border-color:{{baseColor}};background:{{baseColor}}">添加微信好友</button>
+    <button class="link-btn" style="border-color:{{baseColor}};color:{{baseColor}}">留下联系方式</button>
+</view>
+<view class="mitline"></view>
+<view class="info-container">
+    <view class="title-box">
+        <view class="title">
+            <image class="info-icon" src="../../img/wechat.svg"/>
+            微信号
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/phone.svg"/>
+            手机号
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/mail.svg"/>
+            邮箱
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/address.svg"/>
+            地址
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/company.svg"/>
+            公司
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/website.svg"/>
+            网站
+        </view>
+        <view class="title">
+            <image class="info-icon" src="../../img/tips.svg"/>
+            标签
+        </view>
+    </view>
+    <view class="info-box">
+        <view class="info-tab">
+            Landon Singleton
+        </view>
+        <view class="info-tab">
+            185555334443
+        </view>
+        <view class="info-tab">
+           Mike Wilson@163.com
+        </view>
+        <view class="info-tab">
+            Mike Wilson@163.com
+            <view class="with-link"></view>
+        </view>
+        <view class="info-tab">
+            无锡拍信云科技有限公司
+            <view class="with-link"></view>
+        </view>
+        <view class="info-tab" style="color:{{baseColor}}">
+            www.paixin.com
+            <view class="with-link"></view>
+        </view>
+        <view class="info-tips">
+            <view class="tip-desc"></view>
+        </view>
+    </view>
+</view>

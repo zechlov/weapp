@@ -1,0 +1,3 @@
+<!--pages/company/company.wxml-->
+<top-bar navbar-data='{{nvabarData}}'></top-bar>
+<text>pages/company/company.wxml</text>

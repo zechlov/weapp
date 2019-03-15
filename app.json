@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/team/team",
+    "pages/company/company",
+    "pages/private/private"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/private/private",
+        "text": "团队"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拍信云产品",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  }
+}

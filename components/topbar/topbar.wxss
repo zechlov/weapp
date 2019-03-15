@@ -1,0 +1,41 @@
+/* components/topbar/topbar.wxss */
+/* 顶部要固定定位   标题要居中   自定义按钮和标题要和右边微信原生的胶囊上下对齐 */
+.nav-wrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    color: #000;
+    z-index: 9999999;
+    height: 4.5rem;
+  }
+  /* 标题要居左 */
+  .nav-title {
+    position: absolute;
+    text-align: left;
+    left: 2rem;
+    bottom: 1rem;
+    max-width: 400rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 36rpx;
+    color: #2c2b2b;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .back-pre{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    width: 1rem;
+    height: 1.8rem;
+    border: none;
+    outline: none;
+    font-size: 36rpx;
+    background: transparent;
+  }
+  .back-pre::after{
+    border:none;
+  }

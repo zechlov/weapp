@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>销售名片 copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="销售名片" transform="translate(-19.000000, -563.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="375" height="1285"></rect>
+            <g id="邮箱" opacity="0.400000006" transform="translate(22.000000, 566.000000)" fill="#000000">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path d="M1.6390625,3.6421875 L1.6390625,12.3578125 L14.359375,12.3578125 L14.359375,3.6421875 L1.6390625,3.6421875 Z M12.8140625,4.3609375 L8,7.56875 L3.1859375,4.3609375 L12.8140625,4.3609375 Z M2.3578125,11.6390625 L2.3578125,4.671875 L8,8.43125 L13.6421875,4.671875 L13.6421875,11.6390625 L2.3578125,11.6390625 Z" id="形状" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

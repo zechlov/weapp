@@ -1,0 +1,10 @@
+<!--components/topbar/topbar.wxml-->
+<view class='nav-wrap' style="background:{{navbarData.color}};">
+    <!-- 导航栏返回按钮 -->
+  <button class="back-pre" wx:if='{{navbarData.return}}' bindtap='_return'>
+    111
+  </button>
+    <!-- // 导航栏标题 -->
+  <view class='nav-title'>{{navbarData.title}}</view>
+</view>
+

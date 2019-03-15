@@ -1,0 +1,3 @@
+<!--pages/team.wxml-->
+<text>pages/team.wxml</text>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" bindtap="call">aaaaaaa</button>

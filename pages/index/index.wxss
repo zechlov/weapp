@@ -1,0 +1,20 @@
+/**index.wxss**/
+.bc_green{
+  background: green;
+}
+.bc_red{
+  background: red;
+}
+.bc_yellow{
+  background: yellow;
+}
+.bc_blue{
+  background: blue;
+}
+.banner{
+  height: 350px;
+}
+.cookie{
+  height: 350px;
+}
+
